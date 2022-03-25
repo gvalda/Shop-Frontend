@@ -1,0 +1,9 @@
+.overlay {
+  position: absolute;
+  display: none;
+  background-color: var(--white-color);
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 8px var(--black-transparent-color);
+  border-radius: var(--border-radius-size);
+}

@@ -1,0 +1,9 @@
+.navigation {
+  max-width: calc(var(--max-width) * 1.1);
+  margin: auto;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 1.5rem;
+}

@@ -1,0 +1,5 @@
+.catalogue {
+  background-color: var(--white-color);
+  box-shadow: 0 2px 8px var(--black-transparent-color);
+  font-size: 1.2rem;
+}

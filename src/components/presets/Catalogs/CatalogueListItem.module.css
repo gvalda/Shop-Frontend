@@ -1,0 +1,17 @@
+.item > * {
+  display: block;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.item svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+}
+
+.item:hover {
+  background-color: var(--gray-color);
+}

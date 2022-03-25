@@ -1,0 +1,17 @@
+.list {
+  max-height: 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  writing-mode: vertical-lr;
+  align-content: flex-start;
+  gap: 1rem;
+}
+
+.list > li {
+  padding: 1rem;
+  writing-mode: horizontal-tb;
+}
+
+.list > li:not(:last-child) {
+  margin-bottom: 1rem;
+}
