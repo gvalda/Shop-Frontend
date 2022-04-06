@@ -6,8 +6,11 @@ import OneToTwoColumns from '../layouts/grid/OneToTwoColumns';
 import HomeHeader from '../components/presets/Headers/HomeHeader';
 import VerticalCatalogue from '../components/presets/Catalogs/VerticalCatalogue';
 import SearchProductBar from '../components/presets/SearchBars/SearchProductBar';
+import ProductList from '../components/Products/ProductList';
 
 const HomePage = () => {
+  // return <ProductList />;
+
   return (
     <Fragment>
       <HomeHeader />
@@ -18,7 +21,7 @@ const HomePage = () => {
           </OneToTwoColumns.Column>
           <OneToTwoColumns.Column>
             <SearchProductBar />
-            <div>123</div>
+            <ProductList />;
           </OneToTwoColumns.Column>
         </OneToTwoColumns>
       </BoxWidthDeterrent>
