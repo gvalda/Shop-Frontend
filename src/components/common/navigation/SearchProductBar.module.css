@@ -7,4 +7,5 @@
 
 .form input {
   height: 2.5rem;
+  outline: 0px solid var(--dark-gray-color);
 }

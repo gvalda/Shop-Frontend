@@ -1,9 +1,9 @@
 import React from 'react';
 
-import InputField from '../../inputs/InputField';
+import InputField from '../inputs/InputField';
 
 import classes from './SearchProductBar.module.css';
-
+// TODO Merge with a Homepage
 const SearchBar = () => {
   return (
     <form className={classes.form}>

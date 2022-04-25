@@ -1,17 +1,25 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+
 import { Routes, Route } from 'react-router';
 
-import HomePage from './pages/HomePage';
-import ProductPage from './pages/ProductPage';
+import Application from './components/pages/Application/Application';
+import HomePage from './components/pages/Homepage/HomePage';
+import ProductDetailPage from './components/pages/Products/ProductDetailPage';
+import ProductListPage from './components/pages/Products/ProductListPage';
 
 const App = () => {
   return (
-    <Fragment>
-      <Routes>
-        <Route path=':sku' element={<ProductPage />} />
-        <Route path='/' element={<HomePage />} />
-      </Routes>
-    </Fragment>
+    <Routes>
+      <Route path='/*' element={<Application />}>
+        <Route index name='app' element={<HomePage />} />
+        <Route name='products' path='products' element={<ProductListPage />} />
+        <Route
+          name='product-detail'
+          path='products/:sku'
+          element={<ProductDetailPage />}
+        />
+      </Route>
+    </Routes>
   );
 };
 

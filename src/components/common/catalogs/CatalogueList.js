@@ -1,7 +1,8 @@
 import React from 'react';
-import BathroomBath from '../../UI/icons/BathroomBath';
-import GameController from '../../UI/icons/GameController';
-import KitchenPot from '../../UI/icons/KitchenPot';
+
+import KitchenPot from '../icons/KitchenPot';
+import BathroomBath from '../icons/BathroomBath';
+import GameController from '../icons/GameController';
 
 import CatalogueListItem from './CatalogueListItem';
 

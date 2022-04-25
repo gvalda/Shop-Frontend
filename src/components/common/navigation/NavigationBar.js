@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import classes from './HomeNavigationBar.module.css';
+import classes from './NavigationBar.module.css';
 
 const HomeNavigationBar = () => {
   return (
